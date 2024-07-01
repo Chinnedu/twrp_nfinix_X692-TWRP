@@ -111,6 +111,9 @@ BOARD_MAIN_PARTITION_LIST := system vendor product
 # Fstab
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery/root/system/etc/recovery.fstab
 
+# Props
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
 # System as root
 BOARD_SUPPRESS_SECURE_ERASE := true
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := false
